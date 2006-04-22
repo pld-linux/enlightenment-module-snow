@@ -1,7 +1,3 @@
-#
-# TODO:
-# - add pl
-#
 %define		_module_name	snow
 %define		_snap	20060420
 Summary:	Enlightenment DR17 module: %{_module_name}
@@ -25,6 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Snow flakes.
+
+%description -l pl
+P³atki ¶niegu.
 
 %prep
 %setup -q -n %{_module_name}
